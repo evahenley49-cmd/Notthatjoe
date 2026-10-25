@@ -18,7 +18,8 @@ const PRODUCTS = [
     tag: "Best seller",
     name: "“Not That Joe” tee",
     blurb: "For everyone who typed the name, hit enter and got a doctor.",
-    price: { GBP: "about £17", USD: "$22" },
+    price: { GBP: "about £19", USD: "$25" },
+    photo: "photos/tee-not-that-joe.jpg",
     options: [
       { label: "Yellow lettering", url: P + "not-that-joe-yellow-text" },
       { label: "Navy lettering", url: P + "not-that-joe-navy-text" },
@@ -30,8 +31,9 @@ const PRODUCTS = [
     name: "“Wrong Joe, Right Doctor” tee",
     blurb: "The one that explains everything.",
     price: { GBP: "about £17", USD: "$22" },
+    photo: "photos/tee-wrong-joe-right-doctor.jpg",
     options: [
-      { label: "Royal blue & raspberry", url: P + "wrong-joe-right-doctor" },
+      { label: "Black, blue, red & more", url: P + "wrong-joe-right-doctor" },
       { label: "Yellow", url: P + "wrong-joe-right-doctor-blue" },
     ],
     art: { kind: "tee", colour: "#2b55b8", lines: ["WRONG JOE", "RIGHT", "DOCTOR"], ink: "#f2f3f8" },
@@ -41,6 +43,7 @@ const PRODUCTS = [
     name: "“Not That Joe” mug",
     blurb: "Holds enough tea to get through a night on the wards.",
     price: { GBP: "about £11", USD: "$14" },
+    photo: "photos/mug-not-that-joe.jpg",
     options: [
       { label: "Pink lettering", url: P + "not-that-joe-mug-pink-lettering" },
       { label: "Navy lettering", url: P + "not-that-joe-mug-navy-lettering" },
@@ -53,6 +56,7 @@ const PRODUCTS = [
     name: "“Wrong Joe, Right Doctor” mug",
     blurb: "The whole mix-up, explained over a brew.",
     price: { GBP: "about £11", USD: "$14" },
+    photo: "photos/mug-wrong-joe-right-doctor.jpg",
     options: [
       { label: "Navy lettering", url: P + "wrong-joe-right-doctor-mug-navy-lettering" },
       { label: "Yellow lettering", url: P + "wrong-joe-right-doctor-mug-yellow-lettering" },
@@ -64,6 +68,7 @@ const PRODUCTS = [
     name: "“Wrong Joe, Right Doctor” mouse pad",
     blurb: "For writing up notes, or for Googling the other Joe.",
     price: { GBP: "about £9", USD: "$12.13" },
+    photo: "photos/mouse-pad.jpg",
     options: [
       { label: "Buy now", url: P + "mouse-pad-wrong-joe-right-doctor" },
     ],
