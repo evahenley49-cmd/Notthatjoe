@@ -39,6 +39,17 @@ const PRODUCTS = [
     art: { kind: "tee", colour: "#2b55b8", lines: ["WRONG JOE", "RIGHT", "DOCTOR"], ink: "#f2f3f8" },
   },
   {
+    tag: "New",
+    name: "“Not That Joe” muscle tank",
+    blurb: "For everyone who typed the name, hit enter and got a doctor. Sleeves optional.",
+    price: { GBP: "about £19", USD: "$25" },
+    photo: "photos/tank-not-that-joe.jpg",
+    options: [
+      { label: "Buy now", url: P + "notthatjoe-muscle-tank" },
+    ],
+    art: { kind: "tee", colour: "#1d1f26", lines: ["NOT", "THAT", "JOE"], ink: "#c8004f" },
+  },
+  {
     tag: "Night shift",
     name: "“Not That Joe” mug",
     blurb: "Holds enough tea to get through a night on the wards.",
