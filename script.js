@@ -7,7 +7,7 @@
    `price` has one entry per currency: visitors in the Americas
    see USD, everyone else sees GBP. Leave `price` out to hide it.
    ============================================================ */
-const CONTACT_EMAIL = ""; // e.g. "hello@joehenley.com"
+const CONTACT_EMAIL = "notthatjoe@outlook.com";
 const SHOP_URL = "https://notthatjoe-shop.fourthwall.com/";
 const P = SHOP_URL + "products/";
 
@@ -38,6 +38,7 @@ const PRODUCTS = [
     tag: "Night shift",
     name: "“Not That Joe” mug",
     blurb: "Holds enough tea to get through a night on the wards.",
+    price: { GBP: "about £11", USD: "$14" },
     options: [
       { label: "Pink lettering", url: P + "not-that-joe-mug-pink-lettering" },
       { label: "Navy lettering", url: P + "not-that-joe-mug-navy-lettering" },
@@ -49,6 +50,7 @@ const PRODUCTS = [
     tag: "Night shift",
     name: "“Wrong Joe, Right Doctor” mug",
     blurb: "The whole mix-up, explained over a brew.",
+    price: { GBP: "about £11", USD: "$14" },
     options: [
       { label: "Navy lettering", url: P + "wrong-joe-right-doctor-mug-navy-lettering" },
       { label: "Yellow lettering", url: P + "wrong-joe-right-doctor-mug-yellow-lettering" },
@@ -59,6 +61,7 @@ const PRODUCTS = [
     tag: "Desk",
     name: "“Wrong Joe, Right Doctor” mouse pad",
     blurb: "For writing up notes, or for Googling the other Joe.",
+    price: { GBP: "about £9", USD: "$12.13" },
     options: [
       { label: "Buy now", url: P + "mouse-pad-wrong-joe-right-doctor" },
     ],
