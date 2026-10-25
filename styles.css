@@ -210,6 +210,8 @@ h1, h2, h3 { margin: 0; line-height: 1.15; }
 }
 .product__art { aspect-ratio: 1; background: var(--navy-deep); display: grid; place-items: center; padding: 1rem; }
 .product__art svg { width: 100%; height: 100%; }
+.product__art--photo { padding: 0; background: #f2f3f8; }
+.product__art--photo img { width: 100%; height: 100%; object-fit: cover; }
 .product__body { display: flex; flex-direction: column; gap: .35rem; padding: 1.25rem; flex: 1; }
 .product__tag {
   align-self: flex-start; font: 700 .75rem var(--font-head); letter-spacing: .1em; text-transform: uppercase;

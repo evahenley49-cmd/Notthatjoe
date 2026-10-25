@@ -6,6 +6,8 @@
    each with a short label and the product page url.
    `price` has one entry per currency: visitors in the Americas
    see USD, everyone else sees GBP. Leave `price` out to hide it.
+   `photo` is an optional product photo in the photos/ folder; when
+   it's set it replaces the drawn mock-up.
    ============================================================ */
 const CONTACT_EMAIL = "notthatjoe@outlook.com";
 const SHOP_URL = "https://notthatjoe-shop.fourthwall.com/";
@@ -131,7 +133,7 @@ function renderMerch() {
       .map((o) => `<a class="btn ${single ? "btn--yellow" : "btn--option"}" href="${o.url}" target="_blank" rel="noopener">${o.label}</a>`)
       .join("");
     return `<article class="product">
-      <div class="product__art">${artSVG(p.art)}</div>
+      <div class="product__art${p.photo ? " product__art--photo" : ""}">${p.photo ? `<img src="${p.photo}" alt="${p.name}" loading="lazy">` : artSVG(p.art)}</div>
       <div class="product__body">
         <span class="product__tag">${p.tag}</span>
         <h3>${p.name}</h3>
