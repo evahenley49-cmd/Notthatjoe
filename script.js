@@ -9,7 +9,7 @@
    `photo` is an optional product photo in the photos/ folder; when
    it's set it replaces the drawn mock-up.
    ============================================================ */
-const CONTACT_EMAIL = "notthatjoe@outlook.com";
+const CONTACT_EMAIL = ""; // e.g. "notthatjoe@outlook.com" to show the "Say hello" section
 const SHOP_URL = "https://notthatjoe-shop.fourthwall.com/";
 const P = SHOP_URL + "products/";
 
